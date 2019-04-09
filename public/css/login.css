@@ -1,0 +1,182 @@
+body {
+  font-family: "Playfair Display", serif !important;
+}
+
+.md-6-center {
+  margin: 0 auto;
+}
+
+.container-full {
+  padding: 6%;
+}
+
+.set-boder-login {
+  border-style: outset;
+  border-width: 4px;
+  border-color: #B3B3B3;
+}
+
+.height-login {
+  height: 467px;
+}
+
+.center-word {
+  text-align: center;
+}
+
+.login-margin-botton {
+  margin-bottom: 33px;
+}
+
+.background-image {
+  background-size: 100%;
+}
+
+.icon {
+  position: absolute;
+  margin-left: 112px;
+  font-size: 31px;
+  color: #4f5b66;
+}
+
+input#username {
+  width: 300px;
+  height: 50px;
+  color: #63717f;
+  padding-left: 45px;
+  border-radius: 5px;
+  margin-left: 100px;
+}
+
+.password {
+  margin-top: 38px;
+}
+
+.margin-top {
+  margin-top: 26px;
+}
+
+.icon-size {
+  font-size: 33px;
+}
+
+.fa-facebook {
+  color: #3578E5;
+}
+
+.fa-google-plus {
+  color: brown;
+  margin-left: 10px;
+}
+
+@media (max-width: 375px) {
+  .height-login {
+    display: none;
+  }
+
+  input#username {
+    width: 254px;
+    margin-left: 48px;
+  }
+
+  .icon {
+    margin-left: 61px;
+    font-size: 28px;
+    margin-top: 5px;
+  }
+}
+
+@media (max-width: 360px) {
+  input#username {
+    margin-left: 39px;
+  }
+
+  .icon {
+    margin-left: 53px;
+    margin-top: 3px;
+  }
+}
+
+@media (max-width: 411px) {
+  .height-login {
+    display: none;
+  }
+
+  input#username {
+    margin-left: 37px;
+    width: 294px;
+  }
+
+  .icon {
+    margin-left: 48px;
+  }
+}
+
+@media (max-width: 320px) {
+  input#username {
+    margin-left: 21px;
+    width: 241px;
+  }
+
+  .icon {
+    margin-left: 34px;
+    font-size: 26px;
+    margin-top: 4px;
+  }
+}
+
+@media (max-width: 414px) {
+  .height-login {
+    display: none;
+  }
+
+  input#username {
+    width: 288px;
+    margin-left: 40px;
+  }
+
+  .icon {
+    margin-left: 52px;
+  }
+}
+
+@media (max-width: 375px) {
+  input#username {
+    margin-left: 10px;
+    width: 300px;
+  }
+
+  .icon {
+    margin-left: 24px;
+  }
+}
+
+@media (max-width: 768px) {
+  input#username {
+    width: 253px;
+    margin-left: 25px;
+  }
+
+  .icon {
+    margin-left: 37px;
+  }
+
+  .background-image {
+    background-size: 144%;
+  }
+}
+
+@media (max-width: 1024px) {
+  input#username {
+    margin-left: 60px;
+  }
+
+  .icon {
+    margin-left: 72px;
+  }
+
+  .height-login {
+    background-size: 110%;
+  }
+}
+
